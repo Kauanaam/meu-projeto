@@ -2,7 +2,7 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #57b3ff;
+    --verde: #6FFF57;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -88,6 +88,10 @@ body {
     color: var(--verde);
     text-transform: uppercase;
 }
+.contador{
+    font-size: 20px;
+    text-align: center;
+}
 
 @media screen and (min-width: 768px) {
     .botoes {
@@ -102,6 +106,7 @@ body {
         border-radius: 0 40px 0 0;
     }
 }
+
     
 
 
